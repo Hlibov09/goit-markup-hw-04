@@ -140,7 +140,7 @@ body {
 
 .adress-list {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   margin-left: auto;
 }
 
@@ -275,7 +275,6 @@ body {
   justify-content: center;
   background: #F5F4FA;
   border-radius: 4px;
-  width: 270px;
   height: 120px;
   align-items: center;
  }
@@ -397,7 +396,6 @@ fill: currentColor;
 
 .client-logo-item {
 cursor: pointer;
-padding: 16px 32px;
 }
 
 
@@ -407,18 +405,9 @@ padding: 16px 32px;
   justify-content: center;
   border: 1px solid var(--border-client);
   border-radius: 4px;
-  height: 60px;
-  width: 106px;
+  height: 92px;
   fill: var(--border-client);
 }
-
-/*
-.client-logo-icon {
-width: 106px;
-height: 60px;
-fill: var(--border-client);
-}
-*/
 
 
 
@@ -430,7 +419,7 @@ fill: var(--border-client);
 /*
 .client-logo-item:hover,
 .client-logo-item:focus {
-  border: 1px solid var(--accent-color);
+ 
 }
 
 .client-logo-item:hover .client-logo-icon,
@@ -441,6 +430,7 @@ fill: var(--border-client);
 .client-logo-link:hover,
 .client-logo-link:focus {
   fill: var(--accent-color); 
+  border-color: var(--accent-color);
 }
 
 /* FOOTER */
